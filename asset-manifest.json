@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.bd6a7e18.css",
+    "main.js": "/my-portfolio/static/js/main.b90ebf77.js",
+    "static/js/787.1f11dfe9.chunk.js": "/my-portfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/ecommercefrontend.png": "/my-portfolio/static/media/ecommercefrontend.f9006d5de80ea838a1b7.png",
+    "static/media/cybertech.png": "/my-portfolio/static/media/cybertech.b308d3aa2ede9bc14fb9.png",
+    "static/media/me.png": "/my-portfolio/static/media/me.58247bc027520cd709d7.png",
+    "static/media/img-editor.png": "/my-portfolio/static/media/img-editor.8e76860ba006b3afdccb.png",
+    "static/media/img1.jpg": "/my-portfolio/static/media/img1.70e6de9f14c921c83833.jpg",
+    "static/media/img4.jpg": "/my-portfolio/static/media/img4.114e77516f7fa9257ed4.jpg",
+    "static/media/img3.png": "/my-portfolio/static/media/img3.f649fad403a04f855110.png",
+    "static/media/img2.jpg": "/my-portfolio/static/media/img2.3e6214ae78b242c3f4c0.jpg",
+    "static/media/Abu Huraira CV.pdf": "/my-portfolio/static/media/Abu Huraira CV.561d7a31d5705f179a1b.pdf",
+    "static/media/react.png": "/my-portfolio/static/media/react.8de031158034160f496d.png",
+    "static/media/webdevelopment.png": "/my-portfolio/static/media/webdevelopment.f9d169e80e84e333a6d1.png",
+    "static/media/fb.png": "/my-portfolio/static/media/fb.01a470d813915c298403.png",
+    "static/media/gh.png": "/my-portfolio/static/media/gh.f11021803f68852df283.png",
+    "static/media/html.png": "/my-portfolio/static/media/html.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css.png": "/my-portfolio/static/media/css.6c9fd512b594be488cf9.png",
+    "static/media/linkedin.png": "/my-portfolio/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/bootstrap.png": "/my-portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/my-portfolio/static/media/js.4b0c58056d3b2c2196bf.png",
+    "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.bd6a7e18.css.map": "/my-portfolio/static/css/main.bd6a7e18.css.map",
+    "main.b90ebf77.js.map": "/my-portfolio/static/js/main.b90ebf77.js.map",
+    "787.1f11dfe9.chunk.js.map": "/my-portfolio/static/js/787.1f11dfe9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd6a7e18.css",
+    "static/js/main.b90ebf77.js"
+  ]
+}
