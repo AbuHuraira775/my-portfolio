@@ -19,7 +19,7 @@ function Services() {
             <Box title="Html5" des="HTML5 aims to enhance web content and interactivity through modern, standardized markup." icon={html} alt='html5 logo'/>
             <Box title="CSS3" des="Enhance web design with advanced styling, layout, and animation features for modern websites." icon={css} alt='css3 logo'/>
             <Box title="Bootstrap" des="Design responsive and modern websites efficiently using Bootstrap 5's versatile framework components." icon={bootstrap} alt='bootstrap5 logo'/>
-            <Box title="JavaScript" des="Enhance user experience through interactive and responsive JavaScript elements on the website." icon={js} alt='javascript logo'/>
+            <Box title="JavaScript ES6" des="Enhance user experience through interactive and responsive JavaScript elements on the website." icon={js} alt='javascript logo'/>
             </div>
        </div>
     );

@@ -50,7 +50,6 @@ function Portfolio() {
             <div className="portfolio-details box4">
 
                 {bg.map(bg => {
-                    console.log(bgstyle)
                     return (
                         <div style={Object.assign(bg, bgstyle)} key={bg.key}><Port  port_title = {title[bg.key]} href={links[bg.key]}/></div>)
                 })}            

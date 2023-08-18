@@ -150,9 +150,9 @@ code {
 
 #hide{
   position: fixed;
-  top: -50rem;
-  /* background-color:#f6eee7; */
-  background-color:red;
+  top: -60rem;
+  background-color:#f6eee7;
+  /* background-color:red; */
   width: 100%;
   height: 100vh;
   background-color: #fff;
@@ -229,20 +229,23 @@ code {
   border: 2px solid transparent;
   transition: .3s;
   height: 50vh;
+  border: 2px solid transparent;
+  padding: 3rem 0;
+  transition: .3s;
 }
 .box:hover,.exp:hover{
   transform: translateY(-.5rem);
-  box-shadow:var(--ser-box-hover)
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: 2px solid #F79546;
 }
 .img-border{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #f6eee7;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0px 0px 24px -12px rgba(0, 0, 0, 0.9);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .box h3,.exp h3{
   font-weight: normal;
@@ -497,7 +500,6 @@ a:hover{
   }
   .contactfields{
     width: 100%;
-    margin-bottom: 12rem;
   }
   #footertopdiv{
     display: grid;
@@ -579,7 +581,7 @@ a:hover{
     width: var(--btn-size);
   }
   .box4, .exp4,.box{
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;

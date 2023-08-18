@@ -20,7 +20,6 @@ function App() {
       <Experience />
       <Portfolio />
       <Contact />
-      <Contact />
       <Footer />
     </div>
   );
