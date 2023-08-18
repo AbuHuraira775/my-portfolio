@@ -20,8 +20,7 @@ function Contact() {
                     <Field lable="Name" type='text' placeholder="Enter Name" />
                     <Field lable="Email" type='email' placeholder="Enter Email" />
                     <label className='msg'>Message</label>
-                    <textarea className='textarea' name="message" cols="30" rows="10" >Type here...</textarea>
-                    {/* <Field lable="Message" type='text' placeholder="Enter Message Here" /> */}
+                    <textarea className='textarea' name="message" cols="30" rows="10" defaultValue='type'></textarea>
                     <button className='btn'  data-aos="fade-in">Send</button>
                 </div>
             </div>
@@ -34,7 +33,7 @@ const ContactSection = (props) => {
     return (
         <div >
             <a href={props.link} target={props.target}className='contactlinks'  data-aos="zoom-in">
-                <span class="material-symbols-outlined contact-icon">{props.icon}</span>
+                <span className="material-symbols-outlined contact-icon">{props.icon}</span>
                 <p>{props.location}</p>
             </a>
         </div>

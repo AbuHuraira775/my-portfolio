@@ -168,7 +168,7 @@ code {
 }
 .home-details h2{
   font-weight: normal;
-  margin: 5rem 0;
+  margin: 2rem 0;
 }
 .home-background{
   flex: 1;
@@ -218,7 +218,6 @@ code {
 }
 #services{
   background-color: #f8f7f2;
-
 }
 .box,.exp,.port{
   border-radius: 1rem;
@@ -233,10 +232,9 @@ code {
   padding: 3rem 0;
   transition: .3s;
 }
-.box:hover,.exp:hover{
+.box:hover,.exp:hover,#ser:hover{
   transform: translateY(-.5rem);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  border: 2px solid #F79546;
 }
 .img-border{
   width: 100px;

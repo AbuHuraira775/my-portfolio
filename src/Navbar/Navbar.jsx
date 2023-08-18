@@ -6,7 +6,7 @@ function Navbar() {
     const select = document.getElementsByClassName('select')
 
     const show=()=>{
-        return <div><i class="fa-solid fa-bars"></i></div>
+        return <div><i className="fa-solid fa-bars"></i></div>
     }
     return (
         <div className='Navbar' >
@@ -29,8 +29,8 @@ function Navbar() {
                 <div className="nav-menu">
                     <a onClick={()=>{setMobileMenu(!MobileMenu)}}>
                     {MobileMenu ?
-                    <i class="fa-solid fa-xmark"></i>:
-                    <i class="fa-solid fa-bars"></i>
+                    <i className="fa-solid fa-xmark"></i>:
+                    <i className="fa-solid fa-bars"></i>
                     }
                     </a>
                 </div>

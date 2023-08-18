@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <div className="about-buttons">
                     <a href="#services"><button className='btn'>Works<span className="material-symbols-outlined">arrow_forward</span></button></a>
-                    <a href={CV} download="Abu Huraira CV"><button className='btn about-button '>CV<span class="material-symbols-outlined">download</span></button></a>
+                    <a href={CV} download="Abu Huraira CV"><button className='btn about-button '>CV<span className="material-symbols-outlined">download</span></button></a>
                 </div>
             </div>
             
