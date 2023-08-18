@@ -3,11 +3,7 @@ import React, {useState} from 'react';
 
 function Navbar() {
     const [MobileMenu,setMobileMenu] = useState(false)
-    const select = document.getElementsByClassName('select')
 
-    const show=()=>{
-        return <div><i className="fa-solid fa-bars"></i></div>
-    }
     return (
         <div className='Navbar' >
             <header className='App-header'>

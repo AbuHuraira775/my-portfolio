@@ -9,9 +9,9 @@ function FooterName() {
             <h1>Abu Huraira</h1>
             <p>Get a professional website for your business</p>
             <div className="links">
-            <a href="https://www.facebook.com/profile.php?id=100056895102871" target='_blank'><img src={fb} alt="" /></a>
-            <a href="https://github.com/AbuHuraira775/" target='_blank' ><img src={gh} alt="" /></a>
-            <a href="https://www.linkedin.com/in/abu-huraira-a9828922a/" target='_blank'><img src={linkedin} alt="" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100056895102871" target='_blank'rel="noreferrer" ><img src={fb} alt="" /></a>
+            <a href="https://github.com/AbuHuraira775/" target='_blank' rel="noreferrer" ><img src={gh} alt="" /></a>
+            <a href="https://www.linkedin.com/in/abu-huraira-a9828922a/" target='_blank'rel="noreferrer" ><img src={linkedin} alt="" /></a>
             </div>
         </div>
     );

@@ -1,8 +1,4 @@
 import React from 'react';
-import img1 from '../images/img1.jpg'
-import img2 from '../images/img2.jpg'
-import img3 from '../images/img3.png'
-import img4 from '../images/img4.jpg'
 import cybertech from '../images/cybertech.png'
 import ecommercefrontend from '../images/ecommercefrontend.png'
 import imgeditor from '../images/img-editor.png'
@@ -39,7 +35,7 @@ function Portfolio() {
         "https://abuhuraira775.github.io/Frontend/",
         "https://abuhuraira775.github.io/image-editor/"
     ]
-    const port_title = title.map(title=> { return title})
+    // const port_title = title.map(title=> { return title})
     return (
         <div className='App-portfolio main2' id='portfolio'>
             <div className="portfolio-title box3" data-aos="fade-in">
@@ -63,11 +59,10 @@ const Port = (props) => {
 
     return (
 
-        <a href={props.href} className='port' data-aos="fade-in" target='_blank'>
+        <a href={props.href} className='port' data-aos="fade-in" target='_blank' rel="noreferrer" >
             <span className="material-symbols-outlined icon">search</span>
             <p>{props.port_title}</p>
         </a>
-
 
     )
 }
