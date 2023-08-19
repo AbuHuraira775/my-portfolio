@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4cc27f75.css",
-    "main.js": "/my-portfolio/static/js/main.2da7728e.js",
+    "main.css": "/my-portfolio/static/css/main.a081615a.css",
+    "main.js": "/my-portfolio/static/js/main.0278fa78.js",
     "static/js/787.1f11dfe9.chunk.js": "/my-portfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/ecommercefrontend.png": "/my-portfolio/static/media/ecommercefrontend.f9006d5de80ea838a1b7.png",
     "static/media/cybertech.png": "/my-portfolio/static/media/cybertech.b308d3aa2ede9bc14fb9.png",
     "static/media/me.png": "/my-portfolio/static/media/me.58247bc027520cd709d7.png",
-    "static/media/img-editor.png": "/my-portfolio/static/media/img-editor.8e76860ba006b3afdccb.png",
+    "static/media/img-editor.png": "/my-portfolio/static/media/img-editor.d934172fbeadc5ef8f65.png",
     "static/media/Abu Huraira CV.pdf": "/my-portfolio/static/media/Abu Huraira CV.561d7a31d5705f179a1b.pdf",
     "static/media/react.png": "/my-portfolio/static/media/react.8de031158034160f496d.png",
     "static/media/webdevelopment.png": "/my-portfolio/static/media/webdevelopment.f9d169e80e84e333a6d1.png",
@@ -18,12 +18,12 @@
     "static/media/bootstrap.png": "/my-portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/js.png": "/my-portfolio/static/media/js.4b0c58056d3b2c2196bf.png",
     "index.html": "/my-portfolio/index.html",
-    "main.4cc27f75.css.map": "/my-portfolio/static/css/main.4cc27f75.css.map",
-    "main.2da7728e.js.map": "/my-portfolio/static/js/main.2da7728e.js.map",
+    "main.a081615a.css.map": "/my-portfolio/static/css/main.a081615a.css.map",
+    "main.0278fa78.js.map": "/my-portfolio/static/js/main.0278fa78.js.map",
     "787.1f11dfe9.chunk.js.map": "/my-portfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cc27f75.css",
-    "static/js/main.2da7728e.js"
+    "static/css/main.a081615a.css",
+    "static/js/main.0278fa78.js"
   ]
 }
