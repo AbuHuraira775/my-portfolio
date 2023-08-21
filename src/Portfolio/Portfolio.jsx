@@ -10,13 +10,14 @@ import HireMe from './HireMe';
 function Portfolio() {
 
     const bg = [
-        { backgroundImage: `url(${cybertech})`,key:0 },
-        { backgroundImage: `url(${ecommercefrontend})`,key:1  },
-        { backgroundImage: `url(${imgeditor})`,key:2  },
+        { backgroundImage: `url(${cybertech})`, key: 0 },
+        { backgroundImage: `url(${ecommercefrontend})`, key: 1 },
+        { backgroundImage: `url(${imgeditor})`, key: 2 },
         // { backgroundImage: `url(${img4})`,key:3  },
     ]
 
     const bgstyle = {
+        backgroundColor: '#fff',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -25,9 +26,13 @@ function Portfolio() {
 
     const title = [
         'Landing Page',
-        "E commerce frontend",
+        "E-commerce",
         'Image editor',
-
+    ] 
+    const description = [
+        'Responsive Landing page which is build using HTML5, and CSS3.',
+        "E commerce frontend website created by using markup Language (HTML5) and styled by CSS3",
+        'An Image editor, which can perform some basic editings.',
     ]
 
     const links = [
@@ -41,14 +46,14 @@ function Portfolio() {
             <div className="portfolio-title box3" data-aos="fade-in">
                 <h1>My Portfolio</h1>
                 <span className='line2 spane-line' ></span>
-                <p>By passing years I designed many websites for the business, enterprices and for individuals some of the are given below.</p>
+                <p>By passing years I designed many websites for the business, enterprices and for individuals some of them are given below.</p>
             </div>
             <div className="portfolio-details box4">
 
                 {bg.map(bg => {
                     return (
-                        <div style={Object.assign(bg, bgstyle)} key={bg.key}><Port  port_title = {title[bg.key]} href={links[bg.key]}/></div>)
-                })}            
+                        <div style={Object.assign(bg,bgstyle)} key={bg.key}><Port port_title={title[bg.key]} href={links[bg.key]} port_desc={description[bg.key]}/></div>)
+                })}
             </div>
             <HireMe />
         </div>
@@ -59,10 +64,26 @@ const Port = (props) => {
 
     return (
 
-        <a href={props.href} className='port' data-aos="fade-in" target='_blank' rel="noreferrer" >
-            <span className="material-symbols-outlined icon">search</span>
-            <p>{props.port_title}</p>
-        </a>
+        <div className="port">
+            <div className="port-background">
+                {/* <p>image backgound</p> */}
+            </div>
+            <div className="port-description">
+                <div className="porttitle">
+                    <h3>{props.port_title}</h3>
+                    <a href={props.href} className='p' data-aos="fade-in" target='_blank' >
+                        <button className='btn'>Visit</button>
+                    </a>
+                </div>
+                <div className="portpara">
+                    <p>{props.port_desc}</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
 
     )
 }

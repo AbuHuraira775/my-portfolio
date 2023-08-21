@@ -31,8 +31,8 @@ function Navbar() {
                     </a>
                 </div>
 
-                <div id={MobileMenu? 'hide-nav' : 'hide'}>
-                    <ul className={MobileMenu? 'show' : 'hide'} onClick={()=>{setMobileMenu(!MobileMenu)}}>
+                <div id={MobileMenu? 'hide-nav' : 'hide'} onClick={()=>{setMobileMenu(!MobileMenu)}}>
+                    <ul className={MobileMenu? 'show' : 'hide'} >
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
