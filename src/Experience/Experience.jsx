@@ -5,7 +5,7 @@ import react from '../images/react.png'
 function Experience(props) {
     return (
        <div className='App-experience main2' id='experience'>
-        <div className="experience-title box3" data-aos="fade-in">
+        <div className="experience-title box3" data-aos="zoom-in">
                 <h1>My Experience</h1>
                 <span className='line2 spane-line' ></span>
                 <p>I have been working in this field for 2 years and have following professional degrees in the relevant field
@@ -13,7 +13,7 @@ function Experience(props) {
                 </p>
         </div>
 
-        <div className="experience-details box4" data-aos='fade-in'>
+        <div className="experience-details box4" data-aos='zoom-in'>
             <Exp title="FrontEnd Development" des="Drive innovation in web development, leveraging 2 years of experience for exceptional results." date='2021'src={wd} alt='web development logo'/>
             <Exp title="React.js" des="Deliver dynamic web experiences using React.js with one year of proven expertise." date='2022'src={react} alt='web development logo'/>
         </div>
@@ -24,7 +24,7 @@ function Experience(props) {
 
 const Exp=(props)=>{
     return(
-     <div className="exp box">
+     <div className="exp box" data-aos="zoom-in">
         <figure className='exp-content box-content'>
             <span className="img-border"><img src={props.src} alt={props.alt} /></span>
                 <p className="exp-title">{props.title}</p>

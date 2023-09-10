@@ -290,7 +290,7 @@ code {
   border-radius: 1rem;
   box-shadow: var(--box-shadow);
   transition: .3s;
-  height: 70vh;
+  height: 80vh;
   padding: 0;
 }
 .port:hover{

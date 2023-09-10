@@ -31,7 +31,7 @@ function Portfolio() {
     ] 
     const description = [
         'Responsive Landing page which is build using HTML5, and CSS3.',
-        "E commerce frontend website created by using markup Language (HTML5) and styled by CSS3",
+        "E commerce frontend website created by using markup Language (HTML5) and styled by Bootstrap",
         'An Image editor, which can perform some basic editings.',
     ]
 
@@ -43,7 +43,7 @@ function Portfolio() {
     // const port_title = title.map(title=> { return title})
     return (
         <div className='App-portfolio main2' id='portfolio'>
-            <div className="portfolio-title box3" data-aos="fade-in">
+            <div className="portfolio-title box3" data-aos="zoom-in">
                 <h1>My Portfolio</h1>
                 <span className='line2 spane-line' ></span>
                 <p>By passing years I designed many websites for the business, enterprices and for individuals some of them are given below.</p>
@@ -64,11 +64,11 @@ const Port = (props) => {
 
     return (
 
-        <div className="port">
+        <div className="port" >
             <div className="port-background">
                 {/* <p>image backgound</p> */}
             </div>
-            <div className="port-description">
+            <div className="port-description" data-aos="zoom-in">
                 <div className="porttitle">
                     <h3>{props.port_title}</h3>
                     <a href={props.href} className='p' data-aos="fade-in" target='_blank' >

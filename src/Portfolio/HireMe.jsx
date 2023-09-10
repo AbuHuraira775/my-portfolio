@@ -3,7 +3,7 @@ import React from 'react';
 function HireMe() {
     return (
         <div className='App-hireme'>
-            <div className="hiremetitle" data-aos="fade-in">
+            <div className="hiremetitle" data-aos="zoom-in">
                 <h1>Have Any Project Idea In Mind?</h1>
                 <p>Are you thinking about website for your company lets discuss with me by click the below button.</p>
             </div>

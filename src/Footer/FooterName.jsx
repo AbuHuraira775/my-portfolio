@@ -6,7 +6,7 @@ import fiverr from '../images/fiverr.png'
 
 function FooterName() {
     return (
-        <div className='footername' data-aos='fade-in'>
+        <div className='footername' data-aos='zoom-in'>
             <h1>Abu Huraira</h1>
             <p>Get a professional website for your business</p>
             <div className="links">

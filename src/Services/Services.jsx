@@ -26,7 +26,7 @@ function Services() {
 }
 const Box=(props)=>{
     return(
-        <div className="box "  id="ser" data-aos="fade-in">
+        <div className="box "  id="ser" data-aos="zoom-in">
             <figure className='box-content'>
                 <span className='img-border'><img src={props.icon} alt={props.alt} /></span>
                 <p className="box-title">{props.title}</p>
