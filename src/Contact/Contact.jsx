@@ -20,7 +20,7 @@ function Contact() {
                     <Field lable="Name" type='text' placeholder="Enter Name" />
                     <Field lable="Email" type='email' placeholder="Enter Email" />
                     <label className='msg'>Message</label>
-                    <textarea className='textarea' name="message" cols="30" rows="10" defaultValue='type'></textarea>
+                    <textarea className='textarea' name="message" cols="30" rows="10"></textarea>
                     <button className='btn'  data-aos="fade-in">Send</button>
                 </div>
             </div>

@@ -11,7 +11,7 @@ function Services() {
             <div className="service-title box3" data-aos="zoom-in-down">
                 <h1>My Services</h1>
                 <span className='line2 spane-line' ></span>
-                <p>I am serving my clients in website development and focus on the customer satisfaction by using the following tools to build the seamless websites.</p>
+                <p>Your website will be developed by using the following tools</p>
             </div>
 
             <div className="service-details box4" >

@@ -8,8 +8,8 @@ function Experience(props) {
         <div className="experience-title box3" data-aos="zoom-in">
                 <h1>My Experience</h1>
                 <span className='line2 spane-line' ></span>
-                <p>I have been working in this field for 2 years and have following professional degrees in the relevant field
-                    and polished my skills by developing many websites to solve the real world problems.
+                <p>I have been working in this field for 1 years and have following professional degrees in the relevant field
+                    and polished my skills by developing many websites.
                 </p>
         </div>
 

@@ -144,6 +144,10 @@ code {
   align-items: center;
   justify-content: center;
 }
+.Navbar .nav-logo a{
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
 .Navbar .nav-links{
   flex: 4;
 }
@@ -218,6 +222,14 @@ code {
 }
 #services{
   background-color: #f8f7f2;
+}
+#services .service-title p,
+#experience .experience-title p,
+#portfolio .portfolio-title p{
+  width: 70%;
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 .box,.exp{
   border-radius: 1rem;
@@ -609,6 +621,8 @@ a:hover{
   .nav-logo a{
     width: 8rem;
     margin-left: 2rem;
+    /* font-weight: bolder; */
+    /* font-size: 3rem; */
   }
   .Navbar .nav-menu{
     display: flex;

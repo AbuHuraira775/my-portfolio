@@ -46,7 +46,7 @@ function Portfolio() {
             <div className="portfolio-title box3" data-aos="zoom-in">
                 <h1>My Portfolio</h1>
                 <span className='line2 spane-line' ></span>
-                <p>By passing years I designed many websites for the business, enterprices and for individuals some of them are given below.</p>
+                <p>By passing years I designed many websites. You can check below</p>
             </div>
             <div className="portfolio-details box4">
 
